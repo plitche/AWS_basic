@@ -1,0 +1,20 @@
+	2. 오리엔테이션 - 오리엔테이션
+		- AWS의 핵심적인 주요 서비스들의 실제 사용 방법 (매니지먼트콘솔 기준)
+		- AWS 클라우드 인프라를 구축하는 프로세스와 방법
+		- AWS 클라우드 인프라를 구성하는 서비스들의 상관 관계와 클라우드 인프라의 작동 원리
+		
+		- 서버리스 정적 웬사이트 호스팅 및 성능 가속화
+		- LAMP 웹 서버 및 Application Load Balancer 구성
+		- 관계형 데이터베이스 서비스 구성
+		- Auto Scaling을 통한 확장성 및 탄력성 구현
+		
+		1. 주요 AWS 서비스의 개념
+			- Amazon S3
+			- Amazon CloudFront
+			- Amazon EC2
+			- Amazon VPC
+			- Elastic Load Balancer
+			- Amazon RDS
+			- Auto Scaling
+			
+		2. AWS 신규 Account
