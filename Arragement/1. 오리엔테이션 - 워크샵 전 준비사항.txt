@@ -1,0 +1,32 @@
+	1. 오리엔테이션 - 워크샵 전 준비사항
+		■ AWS 계정 생성
+			· 계정 생성 페이지 : https://portal.aws.amazon.com/billing/signup#/start
+			· 계정 생성 가이드 : https://aws.amazon.com/ko/premiumsupport/knowledge-center/create-and-activate-aws-account/
+		
+		■ 워크샵에 사용되는 주요 AWS 서비스들의 학습 자료 링크
+			· Amazon S3
+			  - FAQ : https://aws.amazon.com/ko/s3/faqs/?nc=sn&loc=7
+
+			· Amazon CloudFront
+			  - FAQ : https://aws.amazon.com/ko/cloudfront/faqs/?nc=sn&loc=5&dn=2
+
+			· Amazon EC2
+			  - FAQ : https://aws.amazon.com/ko/ec2/faqs/
+
+			· Elastic Load Balancer
+			  - FAQ : https://aws.amazon.com/ko/elasticloadbalancing/faqs/?nc=sn&loc=6
+
+			· Amazon VPC
+			  - FAQ : https://aws.amazon.com/ko/vpc/faqs/
+
+			· Amazon RDS
+			  - FAQ : https://aws.amazon.com/ko/rds/faqs/
+
+			· Auto Scaling
+			  - FAQ : https://aws.amazon.com/ko/autoscaling/faqs/
+			  
+		■ IAM User
+			· User 생성 가이드 : https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/id_users_create.html
+			  
+		■ PuTTY 다운로드 및 설치
+· PuTTY 다운로드 페이지 : https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html		
