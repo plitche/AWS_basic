@@ -2,7 +2,28 @@
 
 #### 이 Repository는 Inflearn '노마드 콘텐츠 랩'의 '스스로 구축하는 AWS 클라우드 인프라 - 기본편' 의 강의 내용을 개인적으로 정리한 것입니다.  
   
-###LAMP 웹 서버 및 Application Load Balancer 구성  
+### 아키텍처 관련 기술/서비스/다이어그램/구현 순서 검토  
+Amazon S3(Simple Storage Service)  
+Amazon CloudFront  
+			
+(1) S3 Bucket 생성 및 정적 웨사이트 호스팅  
+  _1: S3 Bucket 생성  
+  _2: Object(File) 업로드  
+    > mycar.html  
+    > car.jpg  
+  _3: 정적 웹 사이트 호스팅 기능 활성화  
+  _4: Bucket과 Object에 대한 액세스 정책 설정  
+  _5: 웹 브라우저에서 웹 사이트 작동 확인  
+  
+(2) CloudFront를 통한 웹사이트 성정 가속화  
+  _1: CloudFront Distribution 생성  
+    > Origin, Cache behavior 등 설정  
+  _2: 웹 브라우저에서 CloudFront Distribution 작동 확인  
+  _3: 웹 사이트 성능 테스트  
+    > S3 정적 웹 사이트 호스팅을 통한 콘텐츠 로드 속도  
+    > CloudFront를 통한 콘텐츠 로드 속도  
+    
+### LAMP 웹 서버 및 Application Load Balancer 구성  
 1) 기본 네트워크 환경 구성(VPN/Subnet/Interner Gatway/Route Table)
   - VPC 생성
   - Subnet 생성
